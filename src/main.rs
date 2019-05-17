@@ -1,3 +1,6 @@
+use liboffsetup::OffSetupCli;
+
 fn main() {
-    println!("Hello, world!");
+    let (cli, config) = OffSetupCli::run();
+    println!("{:#?}", opt);
 }
